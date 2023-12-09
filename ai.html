@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ai.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cont1">
+        <H3 id="head">BRAIN TUMOUR CLASSIFICATION</H3>
+        <br>
+        <div class="cont2">
+            <div class="sub1">
+                <div class="img">
+                    <img id="prof" style="display:none;" src="#"/>
+                    <i id="icon" class="fa-solid fa-image"></i>
+                    <h3 id="up">Upload image</h3>
+                </div>
+                <br>
+            <div class="cls" id="">
+                <label for="file">Select Image</label>
+                <input type="file" id="file">
+                <button id="btn">submit</button> 
+            </div>    
+                
+            </div>
+            <div class="sub2">
+                <p>Results</p>
+                <div class="img1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        
+        let profilepic = document.getElementById("prof");
+        let inputfile = document.getElementById("file");
+        inputfile.onchange = function(){
+            profilepic.src = URL.createObjectURL(inputfile.files[0]);
+            document.getElementById("icon").style = "display:none"
+            document.getElementById("up").style = "display:none"
+            document.getElementById("prof").style = "display:block"
+        }
+    </script>
+</body>
+</html>

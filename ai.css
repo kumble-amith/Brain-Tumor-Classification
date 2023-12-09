@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#head{
+    margin-top: 50px;
+    font-size: 30px;
+    
+}
+.cont1{
+    background-image: url(NrTZD.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cont2{
+    margin-bottom: 50px;
+    height: 630px;
+    width: 1350px;
+    box-shadow: 8px 8px 30px #f2aad6;
+    display: flex;
+    flex-direction: row;
+   justify-content:space-evenly;
+}
+
+.sub1,.sub2{
+    height: 600px;
+    width: 710px;
+    /* border: 2px solid #eb7cc0; */
+    border-radius: 0px;
+}
+
+.sub1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 400px;
+    width: 450px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+#icon{
+    font-size: 100px;
+    color: rgb(93, 93, 223);
+}
+
+label{
+   margin-right: 30px;
+    width: 400px;
+    height: 50px;
+     border-radius: 15px; 
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #3c65fa;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+#file{
+    display: none;
+}
+#btn{
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #3c65fa;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+.cls{
+    display: block;
+    padding: 0px;
+}
+
+.img1{
+    height: 400px;
+    width: 450px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    margin-top: 0px;
+}
+.sub2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+p{  margin-top: 17px;
+    text-align: center;
+    font-size: 43px;
+   
+}
+.sub1{
+    margin-top: 40px;
+}
+
+#prof{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
